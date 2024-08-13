@@ -40,6 +40,9 @@ void lapsha_free(Lapsha_t *l) {
  * 00:32МодераторOWL All-Access Pass 2019visualdoj: Ты можешь в шейдере также
  * пройти по всем линиям, и проверить принадлежит ли текущий фрагмент этой линии
  */
+
+// Оригинал https://turborium.github.io/
+// https://github.com/turborium/LapshaEffect/blob/main/UnitMain.pas
 void lapsha_draw(struct Lapsha_t *l, double time) {
     ClearBackground(WHITE);
 
