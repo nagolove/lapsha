@@ -225,7 +225,6 @@ int main(int argc, char **argv) {
 
     sc_init();
     inotifier_init();
-    logger_register_functions();
 
     koh_fpsmeter_init();
     sc_init_script();
